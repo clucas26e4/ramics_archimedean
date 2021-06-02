@@ -7,8 +7,8 @@ Require Import RL.Utilities.polynomials.
 Require Import RL.Utilities.Rpos.
 Require Import RL.Utilities.Lim_seq_US.
 Require Import RL.Utilities.R_complements.
-Require Import Coquelicot.theories.Continuity.
-Require Import Coquelicot.theories.Hierarchy.
+Require Import Coquelicot.Continuity.
+Require Import Coquelicot.Hierarchy.
 
 Require Import List.
 

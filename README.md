@@ -8,20 +8,24 @@ Working with `Coq 8.12.0`
 If you have any trouble or question, please contact `christophe.lucas@ens-lyon.fr` or `matteo.mio@ens-lyon.fr`.
 
 ### How to compile
-To compile all the coq files and generate the documentation, type the following instruction in a terminal at the root of the project (where the file hr\_main\_results.v is).
+This implementation required ??? external libraries, than can be installed using [opam](https://coq.inria.fr/opam-using.html). Once opam has be initialised, the libraries can be installed using the following commands
+
+	$ opam install coq-ollibs
+	$ opam install coq-coquelicot
+
+To compile all the coq files and generate the documentation, type the following instruction in a terminal at the root of the project.
 
 	$ ./configure
 	$ make gallinahtml
 
 This command generates a .html file for each Coq file, that only have definitions, statements and comments useful for the reader. It also generates a file "toc.html" where all the sections in the files are gathered together as well as a quick explanation of what the reader will find in the files.
 
+The installation has been tested on a fresh installation of Ubuntu, following [opam](https://coq.inria.fr/opam-using.html) to install Coq and then doing all commands written in this section.
+
 
 ### The structure of the repository
 There are five folders in the repository:
 
-* QArithSternBrocot - contains the file sqrt2.v from the library [QArithSternBrocot](https://coq.inria.fr/distrib/8.2/contribs/QArithSternBrocot.html) used to prove the irrationality of sqrt 2.
-* OLlibs - contains a subset of the library [OLlibs](https://github.com/olaure01/ollibs), a collection of add-ons for the Coq Standard Library.
-* Coquelicot - contains a subset of the library [Coquelicot](http://coquelicot.saclay.inria.fr/), a Coq library for real analysis.
 * Utilities - contains files not connected to Riesz Logic (e.g. a file defining positive real numbers and lemmas about them).
 * hr - contains all the files related to the system HR.
 * hmr - contains all the files related to the system HMR.

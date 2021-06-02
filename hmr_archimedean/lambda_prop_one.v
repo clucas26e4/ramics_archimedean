@@ -27,9 +27,9 @@ Require Import RL.Utilities.R_complements.
 Require Import Lra.
 Require Import Lia.
 
-Require Import Coquelicot.theories.Continuity.
-Require Import Coquelicot.theories.Hierarchy.
-Require Import Coquelicot.theories.Rcomplements.
+Require Import Coquelicot.Continuity.
+Require Import Coquelicot.Hierarchy.
+Require Import Coquelicot.Rcomplements.
 Local Open Scope R_scope.
 
 (* begin hide *)

@@ -1,6 +1,6 @@
 Require Import Reals.
 
-Require Import RL.OLlibs.List_Type.
+Require Import OLlibs.List_Type.
 Require Import List.
 
 Require Import RL.Utilities.riesz_logic_List_more.
@@ -12,9 +12,9 @@ Require Import RL.Utilities.Lim_seq_US.
 Require Import Lra.
 Require Import Lia.
 
-Require Import Coquelicot.theories.Continuity.
-Require Import Coquelicot.theories.Hierarchy.
-Require Import Coquelicot.theories.Rcomplements.
+Require Import Coquelicot.Continuity.
+Require Import Coquelicot.Hierarchy.
+Require Import Coquelicot.Rcomplements.
 
 Local Open Scope R_scope.
 
