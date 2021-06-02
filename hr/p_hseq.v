@@ -8,8 +8,8 @@ Require Import riesz_logic_List_more.
 Require Import RL.hr.term.
 Require Import RL.hr.semantic.
 Require Import RL.hr.hseq.
-Require Import Coquelicot.Continuity.
-Require Import Coquelicot.Hierarchy.
+Require Import Coquelicot.theories.Continuity.
+Require Import Coquelicot.theories.Hierarchy.
 
 Require Import CMorphisms.
 Require Import Lra.
