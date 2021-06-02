@@ -58,28 +58,13 @@ hr/apply_logical_rule.v
 hr_archimedean/lambda_prop_one.v
 hr_archimedean/archimedean.v
 
-Coquelicot/theories/AutoDerive.v
 Coquelicot/theories/Compactness.v
-Coquelicot/theories/Complex.v
 Coquelicot/theories/Continuity.v
-Coquelicot/theories/Coquelicot.v
-Coquelicot/theories/Derive_2d.v
-Coquelicot/theories/Derive.v
-Coquelicot/theories/ElemFct.v
-Coquelicot/theories/Equiv.v
 Coquelicot/theories/Hierarchy.v
 Coquelicot/theories/Iter.v
-Coquelicot/theories/KHInt.v
 Coquelicot/theories/Lim_seq.v
 Coquelicot/theories/Lub.v
 Coquelicot/theories/Markov.v
-Coquelicot/theories/PSeries.v
 Coquelicot/theories/Rbar.v
 Coquelicot/theories/Rcomplements.v
-Coquelicot/theories/RInt_analysis.v
-Coquelicot/theories/RInt_gen.v
-Coquelicot/theories/RInt.v
-Coquelicot/theories/Seq_fct.v
-Coquelicot/theories/Series.v
-Coquelicot/theories/SF_seq.v
 

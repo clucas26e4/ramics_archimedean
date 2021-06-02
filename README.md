@@ -21,7 +21,7 @@ There are five folders in the repository:
 
 * QArithSternBrocot - contains the file sqrt2.v from the library [QArithSternBrocot](https://coq.inria.fr/distrib/8.2/contribs/QArithSternBrocot.html) used to prove the irrationality of sqrt 2.
 * OLlibs - contains a subset of the library [OLlibs](https://github.com/olaure01/ollibs), a collection of add-ons for the Coq Standard Library.
-* Coquelicot - contains the library [Coquelicot](http://coquelicot.saclay.inria.fr/), a Coq library for real analysis.
+* Coquelicot - contains a subset of the library [Coquelicot](http://coquelicot.saclay.inria.fr/), a Coq library for real analysis.
 * Utilities - contains files not connected to Riesz Logic (e.g. a file defining positive real numbers and lemmas about them).
 * hr - contains all the files related to the system HR.
 * hmr - contains all the files related to the system HMR.
