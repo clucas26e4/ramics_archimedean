@@ -1,7 +1,7 @@
 Ramics Archimedean
 ===========
 
-Implementation of the hypersequent calculii HR and HMR introduced in the article "Free Modal Riesz Spaces are Archimedean: a Syntactic Proof".
+Implementation of the results of the article "Free Modal Riesz Spaces are Archimedean: a Syntactic Proof".
 
 Working with `Coq 8.12.0`
 
