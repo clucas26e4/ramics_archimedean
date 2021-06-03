@@ -8,12 +8,12 @@ Working with `Coq 8.13.2`
 If you have any trouble or question, please contact `christophe.lucas@ens-lyon.fr` or `matteo.mio@ens-lyon.fr`.
 
 ### How to compile
-This implementation required two external libraries and their dependencies, than can be installed using [opam](https://coq.inria.fr/opam-using.html). Once opam has be initialised, the libraries can be installed using the following commands
+This implementation requires two external libraries and their dependencies, than can be installed using [opam](https://coq.inria.fr/opam-using.html). Once opam has be initialised, the libraries can be installed using the following commands
 
 	$ opam install coq-ollibs
 	$ opam install coq-coquelicot
 
-To compile all the coq files and generate the documentation, type the following instruction in a terminal at the root of the project.
+Then to compile all the coq files and generate the documentation, type the following instruction in a terminal at the root of the project.
 
 	$ ./configure
 	$ make gallinahtml
