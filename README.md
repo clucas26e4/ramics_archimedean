@@ -3,12 +3,12 @@ Ramics Archimedean
 
 Implementation of the results of the article "Free Modal Riesz Spaces are Archimedean: a Syntactic Proof".
 
-Working with `Coq 8.12.0`
+Working with `Coq 8.13.2`
 
 If you have any trouble or question, please contact `christophe.lucas@ens-lyon.fr` or `matteo.mio@ens-lyon.fr`.
 
 ### How to compile
-This implementation required ??? external libraries, than can be installed using [opam](https://coq.inria.fr/opam-using.html). Once opam has be initialised, the libraries can be installed using the following commands
+This implementation required two external libraries and their dependencies, than can be installed using [opam](https://coq.inria.fr/opam-using.html). Once opam has be initialised, the libraries can be installed using the following commands
 
 	$ opam install coq-ollibs
 	$ opam install coq-coquelicot
@@ -51,7 +51,7 @@ The files in hr and hmr are quite similar, here are the files that are in those 
 * `soundness.v` : Proof of soundness.
 * `completeness.v` : Proof of completeness.
 * `invertibility.v` : Proof of the CAN-free invertibility of the logical rules.
-* `prederivation.v` (for HMR only): Definition of prederivations (unfinished derivations).
+* `prederivation.v` (for HMR only): Definition of prederivations (unfinished derivations) used in the M elimination.
 * `M_elim.v` : Proof of the M elimination.
 * `can_elim.v` : Proof of the CAN elimination.
 * `p_hseq.v` : Definitions of parametrized sequents and parametrized hypersequents and some properties (like atomicity and complexity), as well as technical lemmas required to manipulate them in Coq.
@@ -71,7 +71,7 @@ The files in hr\_archimedean and hmr\_archimedean are quite similar, here are th
 * `Rpos.v` : definition of positive real numbers and some lemmas used to manipulate them.
 * `riesz_logic_List_more.v` : additionnal lemmas for lists.
 * `polynomials.v` : definition of polynomial expressions and their evaluations on real numbers.
-* `riesz_logic_Nat_more.v` : definition of tetration (tower of exponentials) and well-founded orders on N², N³ and N⁴, used to ensure terminations (notably to prove decidability).
+* `riesz_logic_Nat_more.v` : definition of tetration (tower of exponentials) and well-founded orders on N², N³ and N⁴, used to ensure terminations.
 * `R_complements.v` : contains the additional axioms (IPP and Sequential compactness) as well as some alternative definitions and additional results for limits.
 * `Lim_seq_US.v` : adaptation of the file `Lim_seq.v` from the Coquelicot library, except we define limits on Uniform spaces insteand of only real numbers.
 * `pol_continuous.v` : proof that the evaluation of polynomial expressions is continuous.
